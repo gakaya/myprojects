@@ -1,0 +1,41 @@
+   Project 12
+
+
+1- what is UID?
+A user ID (UID) is a unique positive integer assigned by a Unix-like operating system to each user. Each user is identified to the system by its UID, and user names are generally used only as an interface for humans.
+
+2- what is GID ?
+- Group id: n a Unix system, a GID (group ID) is a name that associates a system user with other users sharing something in common (perhaps a work project or a department name.
+
+3- what command do you type to check the UID of an account?
+# id
+
+
+4- what command do you type to check what group an account belongs to?
+# logins - g <group>
+
+5- what command would you type to check a user's account component?
+# cat /etc/passwd
+
+6- the -g of useradd command is used to add a user to a primary group. what is the option used to add a user to a subgroup or suplementary group?
+# useradd  -G
+#id -a (user)to verify
+
+7- how do you get help on a Linux server?
+# man <request>
+
+8- from a server prompt , how can you connect remotely to another server if you don't have access to putty.
+# scp command
+#wiscp for windows
+
+9- create a file on your server called yourname, then use scp to copy it to my server 
+
+( 96.245.84.63 , username= class3 password= school1 ) put it in /tmp
+
+
+
+10- download the redhat iso image from site ftp://96.245.84.63/software (login: class3 , password= school1 the iso image is rwd-rhel64i386.iso)
+
+11- Watch the video on redhat installation in your video folder and then install redhat in your virtualbox.
+
+
